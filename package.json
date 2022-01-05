@@ -15,7 +15,8 @@
     "eslint": "^8.6.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
-    "jest": "^27.4.7"
+    "jest": "^27.4.7",
+    "nock": "^13.2.1"
   },
   "scripts": {
     "test": "DEBUG=page-loader:* npx -n --experimental-vm-modules jest --no-warnings"

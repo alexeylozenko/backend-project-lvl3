@@ -2,7 +2,7 @@ import cheerio from 'cheerio';
 import path from 'path';
 import fs from 'fs/promises';
 import debug from 'debug';
-import axios from './lib/AxiosAdapter';
+import axios from './lib/AxiosAdapter.js';
 
 const loggerHttp = debug('page-loader:http');
 const loggerError = debug('page-loader:error');

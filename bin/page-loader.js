@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { Command } from 'commander';
 import downloadPage from '../src/index.js';
 import render from '../src/render.js';

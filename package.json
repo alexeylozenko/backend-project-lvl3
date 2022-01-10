@@ -4,6 +4,9 @@
   "description": "[![Actions Status](https://github.com/alexeylozenko/backend-project-lvl3/workflows/hexlet-check/badge.svg)](https://github.com/alexeylozenko/backend-project-lvl3/actions)",
   "main": "src/index.js",
   "type": "module",
+  "bin": {
+    "page-loader": "bin/page-loader.js"
+  },
   "dependencies": {
     "axios": "^0.24.0",
     "cheerio": "^1.0.0-rc.10",

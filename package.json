@@ -1,5 +1,5 @@
 {
-  "name": "@alexeylozenko/page-loader",
+  "name": "page-loader",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/alexeylozenko/backend-project-lvl3/workflows/hexlet-check/badge.svg)](https://github.com/alexeylozenko/backend-project-lvl3/actions)",
   "main": "src/index.js",

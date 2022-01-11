@@ -32,6 +32,8 @@ CLI Tool has two arguments **url** (address of the web page which will be downlo
 ### return: path where was saving the web page.
 
 ``` 
+import downloadPage from 'page-loader';
+ 
 const filepath = downloadPage(pageUrl, outputDir, render); 
 ```
 

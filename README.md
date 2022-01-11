@@ -10,11 +10,15 @@ Tool for downloading web page to your computer with other files(js, images, css 
 * npm
 * make
 
-`` make install ``
+``` 
+make install 
+```
 
 or 
 
-``` npm install ```
+``` 
+npm install
+```
 
 ## Usage
 CLI Tool has two arguments **url** (address of the web page which will be downloaded) and **output** (the path where will be saved page)
@@ -27,7 +31,9 @@ CLI Tool has two arguments **url** (address of the web page which will be downlo
 
 ### return: path where was saving the web page.
 
-``` const filepath = downloadPage(pageUrl, outputDir, render); ```
+``` 
+const filepath = downloadPage(pageUrl, outputDir, render); 
+```
 
 ## Example:
 [![asciicast](https://asciinema.org/a/461199.svg)](https://asciinema.org/a/461199)

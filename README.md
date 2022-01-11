@@ -29,12 +29,12 @@ CLI Tool has two arguments **url** (address of the web page which will be downlo
 * `outputDir` - path for save the web page (default: current working directory),
 * `render` - module for displaying the status of the downloading each resource(not optional cli-version use module [Listr](https://github.com/SamVerschueren/listr))
 
-### return: path where was saving the web page.
+### return: Promise.resolve(filepath);
 
 ``` 
 import downloadPage from 'page-loader';
  
-const filepath = downloadPage(pageUrl, outputDir, render); 
+downloadPage(pageUrl, outputDir, render).then(filepath => )
 ```
 
 ## Example:

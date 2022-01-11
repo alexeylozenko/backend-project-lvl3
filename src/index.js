@@ -142,7 +142,7 @@ const searchLocalResources = (html, resourceDirname, pageUrl) => {
   return { html: $dom.html(), resources };
 };
 
-export default (pageUrl, outputDir, render = () => {}) => {
+export default (pageUrl, outputDir = process.cwd(), render = () => {}) => {
   const fileName = urlToFilename(pageUrl);
   const pageName = fileName.concat('.html');
   const resourceDirname = fileName.concat('_file');

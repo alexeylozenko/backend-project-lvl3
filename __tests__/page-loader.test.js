@@ -91,6 +91,15 @@ test('downloadPage url invalid', async () => {
   }).toThrowErrorMatchingSnapshot();
 });
 
+test('test listr module', () => {
+  const tasks = [
+    { title: 'test task', task: () => 'test task'}
+  ]
+  render(tasks);
+  render(tasks, true);
+  expect(true).toBe(true);
+})
+
 afterEach(async () => {
   await fs.rmdir(testDir, { recursive: true });
 });

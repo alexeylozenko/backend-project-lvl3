@@ -2,6 +2,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/alexeylozenko/backend-project-lvl3/workflows/hexlet-check/badge.svg)](https://github.com/alexeylozenko/backend-project-lvl3/actions)
 [![es-lint](https://github.com/alexeylozenko/backend-project-lvl3/actions/workflows/eslint.yml/badge.svg)](https://github.com/alexeylozenko/backend-project-lvl3/actions/workflows/eslint.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/64f1b3d3678b71e17c5b/maintainability)](https://codeclimate.com/github/alexeylozenko/backend-project-lvl3/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/64f1b3d3678b71e17c5b/test_coverage)](https://codeclimate.com/github/alexeylozenko/backend-project-lvl3/test_coverage)
 ## Description
 Tool for downloading web page to your computer with other files(js, images, css e.t.c) download page as doing this the browser.
 ## Install

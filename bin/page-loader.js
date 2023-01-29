@@ -12,6 +12,6 @@ programm
   .option('-o, --output [output]', 'output for download')
   .action((pageUrl, option) => {
     const url = (pageUrl.includes('https://')) ? pageUrl : `https://${pageUrl}`;
-    downloadPage(pageUrl, option.output, render);
+    downloadPage(url, option.output, render);
   })
   .parse();

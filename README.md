@@ -33,7 +33,7 @@ CLI Tool has two arguments **url** (address of the web page which will be downlo
 
 ### return: Promise.resolve(filepath);
 
-``` 
+```js
 import downloadPage from 'page-loader';
  
 downloadPage(pageUrl, outputDir, render).then(filepath => )

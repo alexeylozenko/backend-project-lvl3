@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`downloadPage exist error 1`] = `"EEXIST: directory is alredy exist"`;
+exports[`downloadPage exist dir error 1`] = `"EEXIST: directory is alredy exist"`;
 
 exports[`downloadPage invalid dir error 1`] = `"ENOENT: no such file or directory, access '/tmp/unknown'"`;
 
-exports[`downloadPage not found host 1`] = `"Request failed with status code 404"`;
+exports[`downloadPage url is incorect 1`] = `"Invalid URL: testhost.loc"`;
 
-exports[`downloadPage url invalid 1`] = `"Invalid URL: testhost.loc"`;
+exports[`downloadPage was not found host 1`] = `"Request failed with status code 404"`;

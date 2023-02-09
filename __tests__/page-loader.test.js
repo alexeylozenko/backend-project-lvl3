@@ -66,14 +66,14 @@ test('downloadPage invalid dir error', async () => {
     .toThrowErrorMatchingSnapshot();
 });
 
-test('downloadPage exist error', async () => {
+test('downloadPage exist dir error', async () => {
   await downloadPage(testHostName, testDir);
   await expect(downloadPage(testHostName, testDir))
     .rejects
     .toThrowErrorMatchingSnapshot();
 });
 
-test('downloadPage not found host', async () => {
+test('downloadPage was not found host', async () => {
   const host = 'http://test.host';
   const pathname = '/wrongpath';
   nock(host)
@@ -84,7 +84,7 @@ test('downloadPage not found host', async () => {
     .toThrowErrorMatchingSnapshot();
 });
 
-test('downloadPage url invalid', async () => {
+test('downloadPage url is incorect', async () => {
   const invalidUrl = 'testhost.loc';
   expect(() => {
     downloadPage(invalidUrl, testDir);
